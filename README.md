@@ -1,4 +1,4 @@
-# GCN is a extension package for reconstructing causal connection by using Bayesian Network, it's built upon on **networkX** and **pgmpy**
+# GCN is an extended package for reconstructing causal connection by using Bayesian Network, it's built upon **networkX** and **pgmpy**.
 
 # INSTALLATION
 Clone the repository and add GCN folder into PYTHONPATH.  
