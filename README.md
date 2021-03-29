@@ -11,10 +11,11 @@ export PYTHONPATH="$(pwd)/:$PYTHONPATH"
 
 # USAGE
 ```python
-from gcn import GaussianCausalNetwork as GCN
+import numpy as np
+from gcn import GaussianCausalNetwork
 from networkx.generators.random_graphs import random_regular_graph
 N_NODE = 5
-G = random_regular_graph(d = 5, n = N_NODE)
+G = random_regular_graph(d = 4, n = N_NODE)
 weights = np.random.rand(N_NODE,N_NODE+2)
 GCNs = GaussianCausalNetwork(G,weight_matrix = weights)
 ```
