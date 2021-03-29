@@ -1,0 +1,4 @@
+networkx==2.5
+pgmpy==0.1.13
+numpy
+scipy
